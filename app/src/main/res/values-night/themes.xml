@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FuelCalculator" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+
+    <style name="editText">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <color name="screen">#000000</color>
+    <color name="colorDatos">#FFFFFF</color>
+
+    <style name="TEXTOFECHA">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="SCREEN">
+        <item name="android:background">@color/negroPantalla2</item>
+    </style>
+
+    <style name="screenDialog">
+        <item name="android:background">@color/negroPantalla2</item>
+    </style>
+
+    <style name="colorButton">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">@color/orange</item>
+    </style>
+
+
+    <style name="TEXT">
+        <item name="android:textColor">@color/orange</item>
+    </style>
+
+    <style name="CustomAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/custom_dialog_bg</item>
+        <item name="android:windowMinWidthMajor">90%</item> <!-- Ajuste opcional del ancho -->
+        <item name="android:windowMinWidthMinor">90%</item>
+    </style>
+</resources>

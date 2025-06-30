@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ईंधन कैलकुलेटर</string>
+    <!--OPCIONES -->
+    <string name="compartir_aplicaci_n">ऐप साझा करें</string>
+    <string name="valorar_aplicaci_n">ऐप रेट करें</string>
+    <string name="m_s_aplicaciones">अधिक ऐप्स</string>
+    <string name="contactar">संपर्क करें</string>
+    <string name="pol_ticas_de_privacidad">गोपनीयता और नीति</string>
+
+    <!--MENÚ NAVEGACIÓN-->
+    <string name="volumen">वॉल्यूम</string>
+    <string name="eficiencia">क्षमता</string>
+    <string name="navigation_draw_open">open</string>
+    <string name="navigation_draw_close">close</string>
+
+    <!--DIALOGO MORE APPS-->
+    <string name="samsung_appstore">SAMSUNG APPSTORE</string>
+    <string name="quieres_ir_a_la_tienda_del_desarrollador">क्या आप डेवलपर स्टोर पर जाना चाहते हैं?</string>
+    <string name="si">हाँ</string>
+    <string name="no">नहीं</string>
+
+    <!--FRAGMENT EFFICENCY-->
+    <string name="combustible_consumido">खपत ईंधन</string>
+    <string name="litros">लीटर</string>
+    <string name="galonesUS">यूएस गैलन</string>
+    <string name="galonesUK">ब्रिटिश गैलन</string>
+    <string name="litrosMin">लीटर</string>
+    <string name="distancia">दूरी</string>
+    <string name="kil_metros">किलोमीटर</string>
+    <string name="precio_del_combustible">ईंधन मूल्य</string>
+    <string name="por_litro">प्रति लीटर</string>
+    <string name="n_mero_de_personas">लोगों की संख्या</string>
+    <string name="calcular">गणना करें</string>
+    <string name="litros_por_cada_100_km">प्रति 100 कि.मी. लीटर</string>
+    <string name="litros_por_cada_10_km">प्रति 10 कि.मी. लीटर</string>
+    <string name="litros_por_cada_km">प्रति कि.मी. लीटर</string>
+    <string name="millas_por_gal_n_us">प्रति यूएस गैलन मील</string>
+    <string name="millas_por_gal_n_uk">प्रति ब्रिटिश गैलन मील</string>
+    <string name="costo_del_combustible">ईंधन लागत</string>
+    <string name="costo_del_combustibleMin">ईंधन लागत</string>
+    <string name="por_persona">प्रति व्यक्ति</string>
+    <string name="eficiencia_del_combustible">ईंधन दक्षता</string>
+    <string name="litros_por_100_km">प्रति 100 कि.मी. लीटर</string>
+    <string name="costo_por_persona">प्रति व्यक्ति लागत</string>
+
+    <!--POPUP-->
+    <string name="popupLitrosPor100km">प्रति 100 कि.मी. लीटर</string>
+    <string name="popupLitrosPor10km">प्रति 10 कि.मी. लीटर</string>
+    <string name="popupLitrosPorkm">प्रति कि.मी. लीटर</string>
+    <string name="popupMillasPorGalonUS">प्रति यूएस गैलन मील</string>
+    <string name="popupMillasPorGalonUK">प्रति ब्रिटिश गैलन मील</string>
+    <string name="popupKilometros">किलोमीटर</string>
+    <string name="popupMillas">मील</string>
+    <string name="popupPorLitro">प्रति लीटर</string>
+    <string name="popupPorGalonUS">प्रति यूएस गैलन</string>
+    <string name="popupPorGalonUK">प्रति ब्रिटिश गैलन</string>
+    <string name="popupLitros">लीटर</string>
+    <string name="popupGalonesUS">यूएस गैलन</string>
+    <string name="popupGalonesUK">ब्रिटिश गैलन</string>
+</resources>

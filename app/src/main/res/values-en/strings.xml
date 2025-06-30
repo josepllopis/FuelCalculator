@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fuel Calculator</string>
+    <!--OPCIONES -->
+    <string name="compartir_aplicaci_n">SHARE APP</string>
+    <string name="valorar_aplicaci_n">RATE APP</string>
+    <string name="m_s_aplicaciones">MORE APP</string>
+    <string name="contactar">CONTACT</string>
+    <string name="pol_ticas_de_privacidad">PRIVACY &amp; POLICY</string>
+
+    <!--MENÚ NAVEGACIÓN-->
+    <string name="volumen">Volumen</string>
+    <string name="eficiencia">Eficiencia</string>
+    <string name="navigation_draw_open">open</string>
+    <string name="navigation_draw_close">close</string>
+
+    <!--DIALOGO MORE APPS-->
+    <!--DIALOGO MORE APPS-->
+    <string name="samsung_appstore">SAMSUNG APPSTORE</string>
+    <string name="quieres_ir_a_la_tienda_del_desarrollador">Do you want to go to the developer store?</string>
+    <string name="si">YES</string>
+    <string name="no">NO</string>
+
+    <!--FRAGMENT EFFICENCY-->
+    <string name="combustible_consumido">Fuel consumed</string>
+    <string name="litros">Liters</string>
+    <string name="galonesUS">US gallons</string>
+    <string name="galonesUK">UK gallons</string>
+    <string name="litrosMin">liters</string>
+    <string name="distancia">Distance</string>
+    <string name="kil_metros">Kilometers</string>
+    <string name="precio_del_combustible">Fuel price</string>
+    <string name="por_litro">Per liter</string>
+    <string name="n_mero_de_personas">Number of people</string>
+    <string name="calcular">CALCULATE</string>
+    <string name="litros_por_cada_100_km">liters per 100 km</string>
+    <string name="litros_por_cada_10_km">liters per 10 km</string>
+    <string name="litros_por_cada_km">liters per km</string>
+    <string name="millas_por_gal_n_us">miles per US gallon</string>
+    <string name="millas_por_gal_n_uk">miles per UK gallon</string>
+    <string name="costo_del_combustible">Fuel cost:</string>
+    <string name="costo_del_combustibleMin">fuel cost:</string>
+    <string name="por_persona">per person</string>
+    <string name="eficiencia_del_combustible">Fuel efficiency</string>
+    <string name="litros_por_100_km">Liters per 100 km</string>
+    <string name="costo_por_persona">Cost per person:</string>
+
+    <!--POPUP-->
+    <string name="popupLitrosPor100km">Liters per 100 km</string>
+    <string name="popupLitrosPor10km">Liters per 10 km</string>
+    <string name="popupLitrosPorkm">Liters per km</string>
+    <string name="popupMillasPorGalonUS">Miles per US gallon</string>
+    <string name="popupMillasPorGalonUK">Miles per UK gallon</string>
+    <string name="popupKilometros">Kilometers</string>
+    <string name="popupMillas">Miles</string>
+    <string name="popupPorLitro">Per liter</string>
+    <string name="popupPorGalonUS">Per US gallon</string>
+    <string name="popupPorGalonUK">Per UK gallon</string>
+    <string name="popupLitros">Liters</string>
+    <string name="popupGalonesUS">US gallons</string>
+    <string name="popupGalonesUK">UK gallons</string>
+</resources>

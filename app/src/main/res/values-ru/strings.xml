@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Калькулятор топлива</string>
+    <!--OPCIONES -->
+    <string name="compartir_aplicaci_n">ПОДЕЛИТЬСЯ ПРИЛОЖЕНИЕМ</string>
+    <string name="valorar_aplicaci_n">ОЦЕНИТЕ ПРИЛОЖЕНИЕ</string>
+    <string name="m_s_aplicaciones">ДРУГИЕ ПРИЛОЖЕНИЯ</string>
+    <string name="contactar">КОНТАКТ</string>
+    <string name="pol_ticas_de_privacidad">КОНФИДЕНЦИАЛЬНОСТЬ И ПОЛИТИКА</string>
+
+    <!--MENÚ NAVEGACIÓN-->
+    <string name="volumen">Объём</string>
+    <string name="eficiencia">Эффективность</string>
+    <string name="navigation_draw_open">open</string>
+    <string name="navigation_draw_close">close</string>
+
+    <!--DIALOGO MORE APPS-->
+    <string name="samsung_appstore">SAMSUNG APPSTORE</string>
+    <string name="quieres_ir_a_la_tienda_del_desarrollador">Вы хотите перейти в магазин разработчика?</string>
+    <string name="si">ДА</string>
+    <string name="no">НЕТ</string>
+
+    <!--FRAGMENT EFFICENCY-->
+    <string name="combustible_consumido">Израсходованное топливо</string>
+    <string name="litros">Литры</string>
+    <string name="galonesUS">галлоны</string>
+    <string name="galonesUK">галлоны</string>
+    <string name="litrosMin">Литры</string>
+    <string name="distancia">Расстояние</string>
+    <string name="kil_metros">Километры</string>
+    <string name="precio_del_combustible">Цена топлива</string>
+    <string name="por_litro">За литр</string>
+    <string name="n_mero_de_personas">Количество человек</string>
+    <string name="calcular">РАССЧИТАТЬ</string>
+    <string name="litros_por_cada_100_km">литров на 100 км</string>
+    <string name="litros_por_cada_10_km">литров на 10 км</string>
+    <string name="litros_por_cada_km">литров на км</string>
+    <string name="millas_por_gal_n_us">миль на галлон (США)</string>
+    <string name="millas_por_gal_n_uk">миль на галлон (Великобритания)</string>
+    <string name="costo_del_combustible">Стоимость топлива:</string>
+    <string name="costo_del_combustibleMin">cтоимость топлива:</string>
+    <string name="por_persona">на человека</string>
+    <string name="eficiencia_del_combustible">Эффективность топлива</string>
+    <string name="litros_por_100_km">Литров на 100 км</string>
+    <string name="costo_por_persona">Стоимость на человека:</string>
+
+    <!--POPUP-->
+    <string name="popupLitrosPor100km">Литров на 100 км</string>
+    <string name="popupLitrosPor10km">Литров на 10 км</string>
+    <string name="popupLitrosPorkm">Литров на км</string>
+    <string name="popupMillasPorGalonUS">Миль на галлон (США)</string>
+    <string name="popupMillasPorGalonUK">Миль на галлон (Великобритания)</string>
+    <string name="popupKilometros">Километры</string>
+    <string name="popupMillas">Мили</string>
+    <string name="popupPorLitro">За литр</string>
+    <string name="popupPorGalonUS">За галлон (США)</string>
+    <string name="popupPorGalonUK">За галлон (Великобритания)</string>
+    <string name="popupLitros">Литры</string>
+    <string name="popupGalonesUS">Галлоны (США)</string>
+    <string name="popupGalonesUK">Галлоны (Великобритания)</string>
+</resources>

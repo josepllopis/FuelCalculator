@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/navegationVolumen"
+        android:title="@string/volumen"
+        android:icon="@drawable/baseline_local_gas_station_24">
+
+    </item>
+    <item android:id="@+id/navegationEfficency"
+        android:title="@string/eficiencia"
+        android:icon="@drawable/baseline_local_gas_station_24"
+        android:checked="true">
+
+    </item>
+
+
+</menu>

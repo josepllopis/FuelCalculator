@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.fragmentVolumen"
+    android:background="@color/screen"
+    android:orientation="vertical"
+    android:padding="20sp">
+
+    <LinearLayout
+        android:id="@+id/titleNumeroMáximo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/numMaximo"
+        android:layout_marginBottom="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eficiencia_del_combustible"
+            android:textColor="@color/colorDatos"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearEficiencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/editEficiencia"
+            style="@style/editText"
+            android:paddingStart="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edittext_borde"
+            android:theme="@style/EditTextTheme" />
+
+            <TextView
+                android:id="@+id/fixedTextEficiencia"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingEnd="10sp"
+                android:layout_gravity="end|center_vertical"
+                android:gravity="center"
+                android:text="@string/litros_por_100_km"
+                android:textColor="@color/colorDatos"
+                />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/settingsEficiencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:src="@drawable/baseline_settings_24"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/titleDistancia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/numMaximo"
+        android:layout_marginBottom="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/distancia"
+            android:textColor="@color/colorDatos"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearDistancia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/editDistancia"
+            style="@style/editText"
+            android:paddingStart="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:padding="10sp"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edittext_borde"
+            android:theme="@style/EditTextTheme" />
+
+            <TextView
+                android:id="@+id/fixedTextDistancia"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingEnd="10sp"
+                android:layout_gravity="end|center_vertical"
+                android:gravity="center"
+                android:text="@string/kil_metros"
+                android:textColor="@color/colorDatos"
+                />
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/settingsDistancia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:src="@drawable/baseline_settings_24"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/titlePrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/numMaximo"
+        android:layout_marginBottom="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/precio_del_combustible"
+            android:textColor="@color/colorDatos"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/editPrecio"
+            style="@style/editText"
+            android:paddingStart="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:padding="10sp"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edittext_borde"
+            android:theme="@style/EditTextTheme" />
+
+            <TextView
+                android:id="@+id/fixedTextPrecio"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingEnd="10sp"
+                android:layout_gravity="end|center_vertical"
+                android:gravity="center"
+                android:text="@string/por_litro"
+                android:textColor="@color/colorDatos"
+                />
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/settingsPrecio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:layout_gravity="center"
+            android:src="@drawable/baseline_settings_24"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/titlePersona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/numMaximo"
+        android:layout_marginBottom="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/n_mero_de_personas"
+            android:textColor="@color/colorDatos"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearPersona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editPersona"
+            style="@style/editText"
+            android:paddingStart="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:padding="10sp"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edittext_borde"
+            android:theme="@style/EditTextTheme" />
+
+        <ImageView
+            android:id="@+id/settingsPersonas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:layout_gravity="center"
+
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/botonCalcularE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/boton_redondo_copiar"
+            android:stateListAnimator="@null"
+            android:text="@string/calcular"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/orange" />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10sp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10sp"
+            >
+
+            <TextView
+                android:id="@+id/calculoCombustibleConsumido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/combustible_consumido"
+                android:textColor="@color/colorDatos" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10sp"
+            >
+
+            <TextView
+                android:id="@+id/calculoCostoCombustible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/costo_del_combustible"
+                android:textColor="@color/colorDatos" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10sp">
+
+            <TextView
+                android:id="@+id/calculoCostoPersona"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/costo_por_persona"
+                android:textColor="@color/colorDatos"
+                />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

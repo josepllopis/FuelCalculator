@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kraftstoffrechner</string>
+    <!--OPCIONES -->
+    <string name="compartir_aplicaci_n">APP TEILEN</string>
+    <string name="valorar_aplicaci_n">APP BEWERTEN</string>
+    <string name="m_s_aplicaciones">WEITERE APPS</string>
+    <string name="contactar">KONTAKT</string>
+    <string name="pol_ticas_de_privacidad">DATENSCHUTZ &amp; RICHTLINIEN</string>
+
+    <!--MENÚ NAVEGACIÓN-->
+    <string name="volumen">Volumen</string>
+    <string name="eficiencia">Effizienz</string>
+    <string name="navigation_draw_open">open</string>
+    <string name="navigation_draw_close">close</string>
+
+    <!--DIALOGO MORE APPS-->
+    <string name="samsung_appstore">SAMSUNG APPSTORE</string>
+    <string name="quieres_ir_a_la_tienda_del_desarrollador">Möchten Sie zum Entwicklerstore gehen?</string>
+    <string name="si">JA</string>
+    <string name="no">NEIN</string>
+
+    <!--FRAGMENT EFFICENCY-->
+    <string name="combustible_consumido">Verbrauchter Kraftstoff</string>
+    <string name="litros">Liter</string>
+    <string name="litrosMin">liter</string>
+    <string name="galonesUS">US-gallonen</string>
+    <string name="galonesUK">britische gallonen</string>
+    <string name="distancia">Entfernung</string>
+    <string name="kil_metros">Kilometer</string>
+    <string name="precio_del_combustible">Kraftstoffpreis</string>
+    <string name="por_litro">Pro Liter</string>
+    <string name="n_mero_de_personas">Anzahl der Personen</string>
+    <string name="calcular">BERECHNEN</string>
+    <string name="litros_por_cada_100_km">liter pro 100 km</string>
+    <string name="litros_por_cada_10_km">liter pro 10 km</string>
+    <string name="litros_por_cada_km">liter pro km</string>
+    <string name="millas_por_gal_n_us">meilen pro US-Gallone</string>
+    <string name="millas_por_gal_n_uk">meilen pro britischer Gallone</string>
+    <string name="costo_del_combustible">Kraftstoffkosten:</string>
+    <string name="costo_del_combustibleMin">kraftstoffkosten</string>
+    <string name="por_persona">pro Person</string>
+    <string name="eficiencia_del_combustible">Kraftstoffeffizienz</string>
+    <string name="litros_por_100_km">Liter pro 100 km</string>
+    <string name="costo_por_persona">Kosten pro Person:</string>
+
+    <!--POPUP-->
+    <string name="popupLitrosPor100km">Liter pro 100 km</string>
+    <string name="popupLitrosPor10km">Liter pro 10 km</string>
+    <string name="popupLitrosPorkm">Liter pro km</string>
+    <string name="popupMillasPorGalonUS">Meilen pro US-Gallone</string>
+    <string name="popupMillasPorGalonUK">Meilen pro UK-Gallone</string>
+    <string name="popupKilometros">Kilometer</string>
+    <string name="popupMillas">Meilen</string>
+    <string name="popupPorLitro">Pro Liter</string>
+    <string name="popupPorGalonUS">Pro US-Gallone</string>
+    <string name="popupPorGalonUK">Pro britischer Gallone</string>
+    <string name="popupLitros">Liter</string>
+    <string name="popupGalonesUS">US-Gallonen</string>
+    <string name="popupGalonesUK">Britische Gallonen</string>
+</resources>

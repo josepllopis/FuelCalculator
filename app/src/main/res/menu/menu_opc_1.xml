@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/option1_1"
+        android:title="@string/popupLitrosPor100km" />
+    <item
+        android:id="@+id/option1_2"
+        android:title="@string/popupLitrosPor10km" />
+    <item
+        android:id="@+id/option1_3"
+        android:title="@string/popupLitrosPorkm" />
+    <item
+        android:id="@+id/option1_4"
+        android:title="@string/popupMillasPorGalonUS" />
+    <item
+        android:id="@+id/option1_5"
+        android:title="@string/popupMillasPorGalonUK" />
+
+</menu>
